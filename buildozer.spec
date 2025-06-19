@@ -2,6 +2,7 @@
 title = DICOM AI Viewer
 package.name = dicomai
 package.domain = org.example
+source.dir = .
 source.include_exts = py,kv,tflite
 version = 0.1
 requirements = python3,kivy,kivymd,pillow,pydicom,numpy,opencv-python
