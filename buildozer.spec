@@ -10,6 +10,11 @@ orientation = portrait
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 android.archs = arm64-v8a
 
+# ✅ These 2 lines fix the SDK version issue
+android.api = 33
+android.build_tools = 33.0.2
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
+
